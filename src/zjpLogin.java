@@ -130,7 +130,7 @@ public class zjpLogin extends JFrame implements ActionListener
                 Class.forName("com.mysql.cj.jdbc.Driver");
                 String dbName = "ems";
                 String db_username = "root";
-                String db_password = "Vijay@2424";
+                String db_password = "xyz";
                 Connection conn= DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/"+dbName, db_username, db_password);
                 Statement stmt = conn.createStatement();
